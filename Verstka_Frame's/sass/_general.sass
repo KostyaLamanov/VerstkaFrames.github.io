@@ -1,0 +1,108 @@
+*
+	background: #F5F5F5
+
+.frame_first
+	padding-top: 5px
+	&_wrapper
+		display: flex
+		justify-content: center
+	&_content
+		margin: 40px 32px 169px 96px
+		.title
+			@include font-Montserrat
+			font-weight: 500
+			font-size: 20px
+			color: #333333
+		.subtitle
+			@include font-Montserrat
+			margin-top: 15px
+			width: 344px
+			font-weight: 400
+			font-size: 16px
+			line-height: 28px
+	&_btn
+		@include font-Montserrat
+		margin-top: 15px
+		width: 192px
+		height: 56px
+		border: 1px solid #0079C8
+		border-radius: 4px
+		font-weight: 600
+		font-size: 16px
+		line-height: 16px
+		text-align: center
+		color: #0079C8
+		transition: 0.3s all
+		&:hover
+			background: #ffe4e1
+	&_img
+		margin-right: 96px
+.frame_second
+	padding-top: 72px
+	&_wrapper
+		display: flex
+		justify-content: center
+	&_content
+		margin-left: 186px
+		margin-right: 194px
+		.title
+			@include title
+		.subtitle
+			@include subtitle
+			width: 736px
+			font-size: 17px
+	&_img
+		margin-top: 33px
+		margin-bottom: 80px
+		img
+			padding-right: 18px
+			&:last-child
+				padding-right: 0
+.frame_third
+	padding-top: 72px
+	&_wrapper
+	
+	&_box
+		position: relative
+		margin: 0 auto
+		width: 927px
+		height: 197px
+		background: #0079C8
+		border-radius: 4px
+		.title
+			position: absolute
+			@include font-Montserrat
+			font-weight: 500
+			font-size: 20px
+			line-height: 20px
+			color: #FFFFFF
+			margin: 40px 602px 137px 52px
+			width: 276px
+			background: #0079C8
+	&_descr
+		position: absolute
+		@include font-Montserrat
+		font-weight: 500
+		font-size: 35px
+		line-height: 44px
+		margin: 80px 394px 30px 50px
+		color: #FFFFFF
+		width: 483px
+		background: #0079C8
+	&_btn
+		@include font-Montserrat
+		position: absolute
+		margin: 101px 50px 40px 616px
+		width: 261px
+		height: 56px
+		font-weight: 600
+		font-size: 16px
+		line-height: 16px
+		background: #FFFFFF
+		border-radius: 6px
+		color: #0079C8
+		border: none
+		line-height: 15px
+		transition: 0.3s all
+		&:hover
+			background: #ffe4e1
